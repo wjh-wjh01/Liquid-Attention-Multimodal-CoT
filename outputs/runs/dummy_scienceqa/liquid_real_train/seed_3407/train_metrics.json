@@ -1,0 +1,44 @@
+{
+  "dataset": "dummy_scienceqa",
+  "experiment": "liquid_real_train",
+  "seed": 3407,
+  "epochs": 5,
+  "best_val_accuracy": 0.7210563546333412,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 5.918545848137737,
+      "train_accuracy": 0.4798051233694798,
+      "val_loss": 1.5036458531462678,
+      "val_accuracy": 0.610469228955435
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.907383007494024,
+      "train_accuracy": 0.6608517994656609,
+      "val_loss": 1.890122033885784,
+      "val_accuracy": 0.6479603867012497
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5612449149482459,
+      "train_accuracy": 0.7776206192047777,
+      "val_loss": 2.147927494775403,
+      "val_accuracy": 0.6856873378920066
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4462406562523293,
+      "train_accuracy": 0.8267326732673267,
+      "val_loss": 2.0406160693043836,
+      "val_accuracy": 0.707616128271634
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3535290495282484,
+      "train_accuracy": 0.8579286500078579,
+      "val_loss": 2.3102715937941176,
+      "val_accuracy": 0.7210563546333412
+    }
+  ]
+}

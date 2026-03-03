@@ -1,0 +1,6 @@
+{
+  "comparison_rows": 5,
+  "ablation_rows": 5,
+  "efficiency_rows": 30,
+  "robustness_rows": 30
+}

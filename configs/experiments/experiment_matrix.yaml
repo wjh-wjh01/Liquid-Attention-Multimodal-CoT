@@ -1,0 +1,117 @@
+seed: 3407
+datasets:
+  - scienceqa
+  - mmlu_pro
+  - cmmcot
+
+experiments:
+  - name: static_cot
+    group: comparison
+    model:
+      attention_mode: static
+    ablation_flags:
+      use_ode: false
+      use_cross_step: false
+      use_self_validation: false
+      use_multimodal: true
+      use_cot_control: true
+      use_reflection: false
+
+  - name: discrete_evolving_attention
+    group: comparison
+    model:
+      attention_mode: discrete
+    ablation_flags:
+      use_ode: false
+      use_cross_step: true
+      use_self_validation: false
+      use_multimodal: true
+      use_cot_control: true
+      use_reflection: false
+
+  - name: reflective_cot
+    group: comparison
+    model:
+      attention_mode: discrete
+    ablation_flags:
+      use_ode: false
+      use_cross_step: true
+      use_self_validation: false
+      use_multimodal: true
+      use_cot_control: true
+      use_reflection: true
+
+  - name: static_self_validation
+    group: comparison
+    model:
+      attention_mode: static
+    ablation_flags:
+      use_ode: false
+      use_cross_step: false
+      use_self_validation: true
+      use_multimodal: true
+      use_cot_control: true
+      use_reflection: false
+
+  - name: liquid_full
+    group: comparison
+    model:
+      attention_mode: liquid
+    ablation_flags:
+      use_ode: true
+      use_cross_step: true
+      use_self_validation: true
+      use_multimodal: true
+      use_cot_control: true
+      use_reflection: false
+
+  - name: w_o_cross_step
+    group: ablation
+    model:
+      attention_mode: liquid
+    ablation_flags:
+      use_ode: true
+      use_cross_step: false
+      use_self_validation: true
+      use_multimodal: true
+      use_cot_control: true
+      use_reflection: false
+
+  - name: w_o_self_validation
+    group: ablation
+    model:
+      attention_mode: liquid
+    ablation_flags:
+      use_ode: true
+      use_cross_step: true
+      use_self_validation: false
+      use_multimodal: true
+      use_cot_control: true
+      use_reflection: false
+
+  - name: w_o_multimodal
+    group: ablation
+    model:
+      attention_mode: liquid
+    ablation_flags:
+      use_ode: true
+      use_cross_step: true
+      use_self_validation: true
+      use_multimodal: false
+      use_cot_control: true
+      use_reflection: false
+
+  - name: w_o_cot_control
+    group: ablation
+    model:
+      attention_mode: liquid
+    ablation_flags:
+      use_ode: true
+      use_cross_step: true
+      use_self_validation: true
+      use_multimodal: true
+      use_cot_control: false
+      use_reflection: false
+
+aliases:
+  w_o_ode: static_cot

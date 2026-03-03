@@ -1,0 +1,10 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "reflective_cot",
+  "seed": 3407,
+  "train_time_sec": 0.652007541997591,
+  "eval_time_sec": 0.018672083009732887,
+  "peak_memory_mb": 0.08242511749267578,
+  "avg_steps": 5.0,
+  "accuracy": 0.275
+}

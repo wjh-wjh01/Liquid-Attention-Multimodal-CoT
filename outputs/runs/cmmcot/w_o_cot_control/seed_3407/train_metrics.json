@@ -1,0 +1,30 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "w_o_cot_control",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.3333333333333333,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 4.007175000508626,
+      "train_accuracy": 0.25,
+      "val_loss": 3.725192070007324,
+      "val_accuracy": 0.3333333333333333
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.664709758758545,
+      "train_accuracy": 0.3416666666666667,
+      "val_loss": 3.3772404193878174,
+      "val_accuracy": 0.3
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.5047597726186117,
+      "train_accuracy": 0.2916666666666667,
+      "val_loss": 1.4431631565093994,
+      "val_accuracy": 0.3333333333333333
+    }
+  ]
+}

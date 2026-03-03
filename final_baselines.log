@@ -1,0 +1,36 @@
+Disabling PyTorch because PyTorch >= 2.4 is required but found 2.3.0+cu121
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+The image processor of type `CLIPImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. 
+📂 加载测试集: /root/autodl-tmp/project/data/raw/scienceqa_full/data/test-full.parquet
+🎯 抽取 500 道多模态题目进行 SOTA 基线对抗...
+
+==================================================
+🚀 开始加载 LLaVA-1.5 (7B) (llava-hf/llava-1.5-7b-hf)...
+Traceback (most recent call last):
+  File "/root/autodl-tmp/project/code/run_baselines.py", line 107, in <module>
+    main()
+  File "/root/autodl-tmp/project/code/run_baselines.py", line 92, in main
+    acc_llava = evaluate_model("llava-hf/llava-1.5-7b-hf", "LLaVA-1.5 (7B)", df_img)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/project/code/run_baselines.py", line 21, in evaluate_model
+    processor = LlavaProcessor.from_pretrained(model_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/processing_utils.py", line 1400, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/processing_utils.py", line 1521, in _get_arguments_from_pretrained
+    sub_processor = auto_processor_class.from_pretrained(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py", line 621, in from_pretrained
+    return image_processor_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 1892, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 1878, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+CLIPImageProcessorFast requires the PyTorch library but it was not found in your environment. Check out the instructions on the
+installation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.
+Please note that you may need to restart your runtime after installation.
+

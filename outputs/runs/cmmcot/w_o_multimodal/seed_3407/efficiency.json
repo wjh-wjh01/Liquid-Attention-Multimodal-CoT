@@ -1,0 +1,10 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "w_o_multimodal",
+  "seed": 3407,
+  "train_time_sec": 1.8853267499944195,
+  "eval_time_sec": 0.04728962499939371,
+  "peak_memory_mb": 0.09813785552978516,
+  "avg_steps": 5.0,
+  "accuracy": 0.375
+}

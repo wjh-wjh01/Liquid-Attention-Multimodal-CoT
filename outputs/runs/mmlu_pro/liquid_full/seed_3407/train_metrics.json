@@ -1,0 +1,30 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "liquid_full",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.26666666666666666,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 4.39143869082133,
+      "train_accuracy": 0.3,
+      "val_loss": 5.222524166107178,
+      "val_accuracy": 0.06666666666666667
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.1034956773122153,
+      "train_accuracy": 0.26666666666666666,
+      "val_loss": 4.862321853637695,
+      "val_accuracy": 0.26666666666666666
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.302752717336019,
+      "train_accuracy": 0.3416666666666667,
+      "val_loss": 4.814570426940918,
+      "val_accuracy": 0.23333333333333334
+    }
+  ]
+}

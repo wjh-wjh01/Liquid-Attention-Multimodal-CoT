@@ -1,0 +1,15 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "w_o_multimodal",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 2.1949798583984377,
+    "accuracy": 0.375,
+    "count": 40,
+    "avg_steps": 5.0,
+    "avg_attn_entropy": 4.562402439117432,
+    "avg_stop_prob": 0.4606200814247131,
+    "eval_time_sec": 0.04728962499939371
+  }
+}

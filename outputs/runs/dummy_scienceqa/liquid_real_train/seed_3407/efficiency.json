@@ -1,0 +1,10 @@
+{
+  "dataset": "dummy_scienceqa",
+  "experiment": "liquid_real_train",
+  "seed": 3407,
+  "train_time_sec": 762.6688701398671,
+  "eval_time_sec": 26.808475406840444,
+  "peak_memory_mb": 7.808138847351074,
+  "avg_steps": 1.0,
+  "accuracy": 0.7210563546333412
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "cmmcot",
+  "raw_dir": "data/raw/cmmcot",
+  "processed_dir": "data/processed/cmmcot",
+  "status": "ok",
+  "counts": {
+    "train": 120,
+    "val": 30,
+    "test": 40
+  },
+  "warnings": [
+    "cmmcot:train has only 120 samples < target 1200, using all available",
+    "cmmcot:val has only 30 samples < target 240, using all available",
+    "cmmcot:test has only 40 samples < target 400, using all available"
+  ],
+  "dropped_no_question": 0
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "liquid_full",
+  "seed": 3407,
+  "train_time_sec": 1.9520642920106184,
+  "eval_time_sec": 0.05284908300382085,
+  "peak_memory_mb": 0.1126718521118164,
+  "avg_steps": 5.0,
+  "accuracy": 0.3
+}

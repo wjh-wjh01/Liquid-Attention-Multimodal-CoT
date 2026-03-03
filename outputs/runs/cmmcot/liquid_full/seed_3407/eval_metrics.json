@@ -1,0 +1,15 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "liquid_full",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 3.2122781753540037,
+    "accuracy": 0.225,
+    "count": 40,
+    "avg_steps": 5.0,
+    "avg_attn_entropy": 4.56317892074585,
+    "avg_stop_prob": 0.49237449169158937,
+    "eval_time_sec": 0.04964808399381582
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "discrete_evolving_attention",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.4666666666666667,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 3.6952699343363444,
+      "train_accuracy": 0.23333333333333334,
+      "val_loss": 2.95980167388916,
+      "val_accuracy": 0.4666666666666667
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.7575742403666177,
+      "train_accuracy": 0.3333333333333333,
+      "val_loss": 3.1237730979919434,
+      "val_accuracy": 0.3333333333333333
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.4531388759613035,
+      "train_accuracy": 0.26666666666666666,
+      "val_loss": 1.6570810079574585,
+      "val_accuracy": 0.43333333333333335
+    }
+  ]
+}

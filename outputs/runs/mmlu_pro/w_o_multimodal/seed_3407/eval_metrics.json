@@ -1,0 +1,15 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "w_o_multimodal",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 3.1857324600219727,
+    "accuracy": 0.25,
+    "count": 40,
+    "avg_steps": 5.0,
+    "avg_attn_entropy": 4.562788963317871,
+    "avg_stop_prob": 0.5175186514854431,
+    "eval_time_sec": 0.054177166006411426
+  }
+}

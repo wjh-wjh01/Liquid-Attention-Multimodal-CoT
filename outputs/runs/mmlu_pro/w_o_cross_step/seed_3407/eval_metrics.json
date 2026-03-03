@@ -1,0 +1,15 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "w_o_cross_step",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 2.912278175354004,
+    "accuracy": 0.3,
+    "count": 40,
+    "avg_steps": 5.0,
+    "avg_attn_entropy": 4.563667678833008,
+    "avg_stop_prob": 0.5697941064834595,
+    "eval_time_sec": 0.04668824998952914
+  }
+}

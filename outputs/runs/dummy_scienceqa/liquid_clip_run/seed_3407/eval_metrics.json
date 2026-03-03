@@ -1,0 +1,15 @@
+{
+  "dataset": "dummy_scienceqa",
+  "experiment": "liquid_clip_run",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 0.9579893910808963,
+    "accuracy": 0.4053289318556944,
+    "count": 4241,
+    "avg_steps": 1.0,
+    "avg_attn_entropy": 4.526818750152552,
+    "avg_stop_prob": 1.0,
+    "eval_time_sec": 29.69274697639048
+  }
+}

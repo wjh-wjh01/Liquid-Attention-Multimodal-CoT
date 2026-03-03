@@ -1,0 +1,30 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "reflective_cot",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.4,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 4.439424101511637,
+      "train_accuracy": 0.3,
+      "val_loss": 5.083459854125977,
+      "val_accuracy": 0.06666666666666667
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.0875421365102134,
+      "train_accuracy": 0.25,
+      "val_loss": 4.946534633636475,
+      "val_accuracy": 0.4
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.4199409643809,
+      "train_accuracy": 0.35,
+      "val_loss": 4.867800712585449,
+      "val_accuracy": 0.23333333333333334
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "scienceqa",
+  "experiment": "static_cot",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 4.505178546905517,
+    "accuracy": 0.175,
+    "count": 40,
+    "avg_steps": 5.0,
+    "avg_attn_entropy": 4.563093185424805,
+    "avg_stop_prob": 0.47127734422683715,
+    "eval_time_sec": 0.012587874996825121
+  }
+}

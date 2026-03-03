@@ -1,0 +1,10 @@
+{
+  "dataset": "scienceqa",
+  "experiment": "w_o_cot_control",
+  "seed": 3407,
+  "train_time_sec": 0.6796126249973895,
+  "eval_time_sec": 0.01615429100638721,
+  "peak_memory_mb": 0.08432769775390625,
+  "avg_steps": 1.0,
+  "accuracy": 0.3
+}

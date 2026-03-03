@@ -1,0 +1,17 @@
+{
+  "dataset": "mmlu_pro",
+  "raw_dir": "data/raw/mmlu_pro",
+  "processed_dir": "data/processed/mmlu_pro",
+  "status": "ok",
+  "counts": {
+    "train": 120,
+    "val": 30,
+    "test": 40
+  },
+  "warnings": [
+    "mmlu_pro:train has only 120 samples < target 1600, using all available",
+    "mmlu_pro:val has only 30 samples < target 300, using all available",
+    "mmlu_pro:test has only 40 samples < target 500, using all available"
+  ],
+  "dropped_no_question": 0
+}

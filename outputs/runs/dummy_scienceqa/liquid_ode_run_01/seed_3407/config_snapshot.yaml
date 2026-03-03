@@ -1,0 +1,42 @@
+seed: 3407
+output_dir: outputs/runs
+dataset:
+  name: dummy_scienceqa
+  processed_root: data/processed
+  profile: local_v1
+model:
+  hidden_dim: 128
+  image_dim: 64
+  vocab_size: 20000
+  max_question_len: 96
+  max_choice_len: 32
+  max_reasoning_steps: 5
+  min_reasoning_steps: 1
+  stop_threshold: 0.75
+  attention_heads: 4
+  attention_mode: liquid
+  tau: 0.5
+  dt: 0.2
+  micro_steps: 4
+  dropout: 0.1
+train:
+  epochs: 3
+  batch_size: 16
+  lr: 0.001
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  log_every: 20
+eval:
+  batch_size: 32
+  split: test
+  noise_levels:
+  - 0.1
+  - 0.2
+ablation_flags:
+  use_ode: true
+  use_cross_step: true
+  use_self_validation: true
+  use_multimodal: true
+  use_cot_control: true
+  use_reflection: false
+experiment_name: liquid_ode_run_01

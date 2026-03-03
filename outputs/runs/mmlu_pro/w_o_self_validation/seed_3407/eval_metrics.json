@@ -1,0 +1,15 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "w_o_self_validation",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 2.9224092960357666,
+    "accuracy": 0.325,
+    "count": 40,
+    "avg_steps": 5.0,
+    "avg_attn_entropy": 4.563673591613769,
+    "avg_stop_prob": 0.4181408047676086,
+    "eval_time_sec": 0.05202229099813849
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "dataset": "scienceqa",
+  "experiment": "w_o_multimodal",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.3,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 3.5156882921854655,
+      "train_accuracy": 0.2833333333333333,
+      "val_loss": 3.7026093006134033,
+      "val_accuracy": 0.3
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.457109260559082,
+      "train_accuracy": 0.4,
+      "val_loss": 3.9997715950012207,
+      "val_accuracy": 0.2
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.929292345046997,
+      "train_accuracy": 0.36666666666666664,
+      "val_loss": 3.0894951820373535,
+      "val_accuracy": 0.23333333333333334
+    }
+  ]
+}

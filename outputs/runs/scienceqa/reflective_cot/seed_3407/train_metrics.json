@@ -1,0 +1,30 @@
+{
+  "dataset": "scienceqa",
+  "experiment": "reflective_cot",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.3,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 4.502588144938151,
+      "train_accuracy": 0.275,
+      "val_loss": 3.9672961235046387,
+      "val_accuracy": 0.3
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.680255651473999,
+      "train_accuracy": 0.38333333333333336,
+      "val_loss": 4.306023597717285,
+      "val_accuracy": 0.16666666666666666
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.693862199783325,
+      "train_accuracy": 0.35833333333333334,
+      "val_loss": 3.599851369857788,
+      "val_accuracy": 0.3
+    }
+  ]
+}

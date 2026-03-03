@@ -1,0 +1,30 @@
+{
+  "dataset": "scienceqa",
+  "experiment": "discrete_evolving_attention",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.26666666666666666,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 4.525883340835572,
+      "train_accuracy": 0.275,
+      "val_loss": 4.074234485626221,
+      "val_accuracy": 0.26666666666666666
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.8388505776723227,
+      "train_accuracy": 0.375,
+      "val_loss": 4.418344974517822,
+      "val_accuracy": 0.2
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.6859350840250653,
+      "train_accuracy": 0.3416666666666667,
+      "val_loss": 3.999589443206787,
+      "val_accuracy": 0.26666666666666666
+    }
+  ]
+}

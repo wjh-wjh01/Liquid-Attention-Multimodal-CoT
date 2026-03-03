@@ -1,0 +1,30 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "liquid_full",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.4666666666666667,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 3.714941660563151,
+      "train_accuracy": 0.23333333333333334,
+      "val_loss": 2.9553868770599365,
+      "val_accuracy": 0.4666666666666667
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.7719091097513835,
+      "train_accuracy": 0.3333333333333333,
+      "val_loss": 3.1277830600738525,
+      "val_accuracy": 0.3333333333333333
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.46686102549235,
+      "train_accuracy": 0.26666666666666666,
+      "val_loss": 1.6485823392868042,
+      "val_accuracy": 0.43333333333333335
+    }
+  ]
+}

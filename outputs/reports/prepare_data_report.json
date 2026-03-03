@@ -1,0 +1,58 @@
+{
+  "profile": "local_v1",
+  "seed": 3407,
+  "reports": [
+    {
+      "dataset": "scienceqa",
+      "raw_dir": "data/raw/scienceqa",
+      "processed_dir": "data/processed/scienceqa",
+      "status": "ok",
+      "counts": {
+        "train": 120,
+        "val": 30,
+        "test": 40
+      },
+      "warnings": [
+        "scienceqa:train has only 120 samples < target 2000, using all available",
+        "scienceqa:val has only 30 samples < target 400, using all available",
+        "scienceqa:test has only 40 samples < target 600, using all available"
+      ],
+      "dropped_no_question": 0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "raw_dir": "data/raw/mmlu_pro",
+      "processed_dir": "data/processed/mmlu_pro",
+      "status": "ok",
+      "counts": {
+        "train": 120,
+        "val": 30,
+        "test": 40
+      },
+      "warnings": [
+        "mmlu_pro:train has only 120 samples < target 1600, using all available",
+        "mmlu_pro:val has only 30 samples < target 300, using all available",
+        "mmlu_pro:test has only 40 samples < target 500, using all available"
+      ],
+      "dropped_no_question": 0
+    },
+    {
+      "dataset": "cmmcot",
+      "raw_dir": "data/raw/cmmcot",
+      "processed_dir": "data/processed/cmmcot",
+      "status": "ok",
+      "counts": {
+        "train": 120,
+        "val": 30,
+        "test": 40
+      },
+      "warnings": [
+        "cmmcot:train has only 120 samples < target 1200, using all available",
+        "cmmcot:val has only 30 samples < target 240, using all available",
+        "cmmcot:test has only 40 samples < target 400, using all available"
+      ],
+      "dropped_no_question": 0
+    }
+  ],
+  "missing_count": 0
+}

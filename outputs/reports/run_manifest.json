@@ -1,0 +1,247 @@
+{
+  "results": [
+    {
+      "dataset": "scienceqa",
+      "experiment": "static_cot",
+      "seed": 3407,
+      "run_dir": "outputs/runs/scienceqa/static_cot/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.175,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "scienceqa",
+      "experiment": "discrete_evolving_attention",
+      "seed": 3407,
+      "run_dir": "outputs/runs/scienceqa/discrete_evolving_attention/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.175,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "scienceqa",
+      "experiment": "reflective_cot",
+      "seed": 3407,
+      "run_dir": "outputs/runs/scienceqa/reflective_cot/seed_3407",
+      "best_val_accuracy": 0.3,
+      "test_accuracy": 0.275,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "scienceqa",
+      "experiment": "static_self_validation",
+      "seed": 3407,
+      "run_dir": "outputs/runs/scienceqa/static_self_validation/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.175,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "scienceqa",
+      "experiment": "liquid_full",
+      "seed": 3407,
+      "run_dir": "outputs/runs/scienceqa/liquid_full/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.175,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "scienceqa",
+      "experiment": "w_o_cross_step",
+      "seed": 3407,
+      "run_dir": "outputs/runs/scienceqa/w_o_cross_step/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.175,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "scienceqa",
+      "experiment": "w_o_self_validation",
+      "seed": 3407,
+      "run_dir": "outputs/runs/scienceqa/w_o_self_validation/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.175,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "scienceqa",
+      "experiment": "w_o_multimodal",
+      "seed": 3407,
+      "run_dir": "outputs/runs/scienceqa/w_o_multimodal/seed_3407",
+      "best_val_accuracy": 0.3,
+      "test_accuracy": 0.175,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "scienceqa",
+      "experiment": "w_o_cot_control",
+      "seed": 3407,
+      "run_dir": "outputs/runs/scienceqa/w_o_cot_control/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.3,
+      "avg_steps": 1.0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "experiment": "static_cot",
+      "seed": 3407,
+      "run_dir": "outputs/runs/mmlu_pro/static_cot/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.325,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "experiment": "discrete_evolving_attention",
+      "seed": 3407,
+      "run_dir": "outputs/runs/mmlu_pro/discrete_evolving_attention/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.325,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "experiment": "reflective_cot",
+      "seed": 3407,
+      "run_dir": "outputs/runs/mmlu_pro/reflective_cot/seed_3407",
+      "best_val_accuracy": 0.4,
+      "test_accuracy": 0.35,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "experiment": "static_self_validation",
+      "seed": 3407,
+      "run_dir": "outputs/runs/mmlu_pro/static_self_validation/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.3,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "experiment": "liquid_full",
+      "seed": 3407,
+      "run_dir": "outputs/runs/mmlu_pro/liquid_full/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.3,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "experiment": "w_o_cross_step",
+      "seed": 3407,
+      "run_dir": "outputs/runs/mmlu_pro/w_o_cross_step/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.3,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "experiment": "w_o_self_validation",
+      "seed": 3407,
+      "run_dir": "outputs/runs/mmlu_pro/w_o_self_validation/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.325,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "experiment": "w_o_multimodal",
+      "seed": 3407,
+      "run_dir": "outputs/runs/mmlu_pro/w_o_multimodal/seed_3407",
+      "best_val_accuracy": 0.26666666666666666,
+      "test_accuracy": 0.25,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "mmlu_pro",
+      "experiment": "w_o_cot_control",
+      "seed": 3407,
+      "run_dir": "outputs/runs/mmlu_pro/w_o_cot_control/seed_3407",
+      "best_val_accuracy": 0.23333333333333334,
+      "test_accuracy": 0.375,
+      "avg_steps": 1.0
+    },
+    {
+      "dataset": "cmmcot",
+      "experiment": "static_cot",
+      "seed": 3407,
+      "run_dir": "outputs/runs/cmmcot/static_cot/seed_3407",
+      "best_val_accuracy": 0.4666666666666667,
+      "test_accuracy": 0.225,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "cmmcot",
+      "experiment": "discrete_evolving_attention",
+      "seed": 3407,
+      "run_dir": "outputs/runs/cmmcot/discrete_evolving_attention/seed_3407",
+      "best_val_accuracy": 0.4666666666666667,
+      "test_accuracy": 0.225,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "cmmcot",
+      "experiment": "reflective_cot",
+      "seed": 3407,
+      "run_dir": "outputs/runs/cmmcot/reflective_cot/seed_3407",
+      "best_val_accuracy": 0.43333333333333335,
+      "test_accuracy": 0.275,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "cmmcot",
+      "experiment": "static_self_validation",
+      "seed": 3407,
+      "run_dir": "outputs/runs/cmmcot/static_self_validation/seed_3407",
+      "best_val_accuracy": 0.4666666666666667,
+      "test_accuracy": 0.225,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "cmmcot",
+      "experiment": "liquid_full",
+      "seed": 3407,
+      "run_dir": "outputs/runs/cmmcot/liquid_full/seed_3407",
+      "best_val_accuracy": 0.4666666666666667,
+      "test_accuracy": 0.225,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "cmmcot",
+      "experiment": "w_o_cross_step",
+      "seed": 3407,
+      "run_dir": "outputs/runs/cmmcot/w_o_cross_step/seed_3407",
+      "best_val_accuracy": 0.4666666666666667,
+      "test_accuracy": 0.225,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "cmmcot",
+      "experiment": "w_o_self_validation",
+      "seed": 3407,
+      "run_dir": "outputs/runs/cmmcot/w_o_self_validation/seed_3407",
+      "best_val_accuracy": 0.4666666666666667,
+      "test_accuracy": 0.225,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "cmmcot",
+      "experiment": "w_o_multimodal",
+      "seed": 3407,
+      "run_dir": "outputs/runs/cmmcot/w_o_multimodal/seed_3407",
+      "best_val_accuracy": 0.4,
+      "test_accuracy": 0.375,
+      "avg_steps": 5.0
+    },
+    {
+      "dataset": "cmmcot",
+      "experiment": "w_o_cot_control",
+      "seed": 3407,
+      "run_dir": "outputs/runs/cmmcot/w_o_cot_control/seed_3407",
+      "best_val_accuracy": 0.3333333333333333,
+      "test_accuracy": 0.35,
+      "avg_steps": 1.0
+    }
+  ]
+}

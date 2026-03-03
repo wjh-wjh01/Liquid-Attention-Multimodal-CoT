@@ -1,0 +1,10 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "reflective_cot",
+  "seed": 3407,
+  "train_time_sec": 0.6545897920004791,
+  "eval_time_sec": 0.01731133299472276,
+  "peak_memory_mb": 0.10136222839355469,
+  "avg_steps": 5.0,
+  "accuracy": 0.35
+}

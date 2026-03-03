@@ -1,0 +1,6 @@
+{
+  "simple_acc": 0.2,
+  "difficulty_acc": 0.15,
+  "noise_10_acc": 0.225,
+  "noise_20_acc": 0.2
+}

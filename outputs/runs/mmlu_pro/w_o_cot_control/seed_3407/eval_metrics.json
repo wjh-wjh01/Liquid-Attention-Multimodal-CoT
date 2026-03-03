@@ -1,0 +1,15 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "w_o_cot_control",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 3.286876678466797,
+    "accuracy": 0.375,
+    "count": 40,
+    "avg_steps": 1.0,
+    "avg_attn_entropy": 4.564318084716797,
+    "avg_stop_prob": 0.6314967155456543,
+    "eval_time_sec": 0.01619566600129474
+  }
+}

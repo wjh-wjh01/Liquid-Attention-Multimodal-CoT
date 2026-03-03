@@ -1,0 +1,10 @@
+{
+  "dataset": "scienceqa",
+  "experiment": "w_o_multimodal",
+  "seed": 3407,
+  "train_time_sec": 1.8748280839936342,
+  "eval_time_sec": 0.053235166997183114,
+  "peak_memory_mb": 0.09841632843017578,
+  "avg_steps": 5.0,
+  "accuracy": 0.175
+}

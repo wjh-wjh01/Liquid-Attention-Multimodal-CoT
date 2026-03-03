@@ -1,0 +1,18 @@
+seed: 3407
+profile: local_v1
+raw_root: data/raw
+processed_root: data/processed
+
+subsets:
+  scienceqa:
+    train: 2000
+    val: 400
+    test: 600
+  mmlu_pro:
+    train: 1600
+    val: 300
+    test: 500
+  cmmcot:
+    train: 1200
+    val: 240
+    test: 400

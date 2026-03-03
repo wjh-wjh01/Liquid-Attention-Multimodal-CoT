@@ -1,0 +1,15 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "reflective_cot",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 3.0143762588500977,
+    "accuracy": 0.35,
+    "count": 40,
+    "avg_steps": 5.0,
+    "avg_attn_entropy": 4.562780857086182,
+    "avg_stop_prob": 0.43732879161834715,
+    "eval_time_sec": 0.01731133299472276
+  }
+}

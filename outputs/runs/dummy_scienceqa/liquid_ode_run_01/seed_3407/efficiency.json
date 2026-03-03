@@ -1,0 +1,10 @@
+{
+  "dataset": "dummy_scienceqa",
+  "experiment": "liquid_ode_run_01",
+  "seed": 3407,
+  "train_time_sec": 126.95435127429664,
+  "eval_time_sec": 1.2030984964221716,
+  "peak_memory_mb": 4.702741622924805,
+  "avg_steps": 1.0,
+  "accuracy": 0.400848856401792
+}

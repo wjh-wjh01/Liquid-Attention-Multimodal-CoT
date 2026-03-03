@@ -1,0 +1,30 @@
+{
+  "dataset": "scienceqa",
+  "experiment": "static_self_validation",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.26666666666666666,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 4.545561774571737,
+      "train_accuracy": 0.2833333333333333,
+      "val_loss": 4.072542667388916,
+      "val_accuracy": 0.26666666666666666
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.857933791478475,
+      "train_accuracy": 0.375,
+      "val_loss": 4.415788173675537,
+      "val_accuracy": 0.2
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.7070310433705647,
+      "train_accuracy": 0.3333333333333333,
+      "val_loss": 3.997929811477661,
+      "val_accuracy": 0.26666666666666666
+    }
+  ]
+}

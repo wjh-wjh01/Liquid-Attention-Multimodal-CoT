@@ -1,0 +1,10 @@
+{
+  "dataset": "scienceqa",
+  "experiment": "static_self_validation",
+  "seed": 3407,
+  "train_time_sec": 0.5120339170098305,
+  "eval_time_sec": 0.012455290998332202,
+  "peak_memory_mb": 0.08432960510253906,
+  "avg_steps": 5.0,
+  "accuracy": 0.175
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "static_cot",
+  "seed": 3407,
+  "test": {
+    "split": "test",
+    "loss": 3.225003242492676,
+    "accuracy": 0.225,
+    "count": 40,
+    "avg_steps": 5.0,
+    "avg_attn_entropy": 4.563168621063232,
+    "avg_stop_prob": 0.413279664516449,
+    "eval_time_sec": 0.014005417004227638
+  }
+}

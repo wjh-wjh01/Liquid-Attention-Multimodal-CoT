@@ -1,0 +1,10 @@
+{
+  "dataset": "scienceqa",
+  "experiment": "discrete_evolving_attention",
+  "seed": 3407,
+  "train_time_sec": 0.5586612499901094,
+  "eval_time_sec": 0.013231125005404465,
+  "peak_memory_mb": 0.08231258392333984,
+  "avg_steps": 5.0,
+  "accuracy": 0.175
+}

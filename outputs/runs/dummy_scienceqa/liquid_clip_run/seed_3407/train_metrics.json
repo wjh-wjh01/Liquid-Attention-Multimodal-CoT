@@ -1,0 +1,30 @@
+{
+  "dataset": "dummy_scienceqa",
+  "experiment": "liquid_clip_run",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.4053289318556944,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9589284535719317,
+      "train_accuracy": 0.39894703756089894,
+      "val_loss": 0.9582266034565003,
+      "val_accuracy": 0.3999056826220231
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9589739091812618,
+      "train_accuracy": 0.39831840326889834,
+      "val_loss": 0.9588119693309511,
+      "val_accuracy": 0.40108464984673425
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.962042665633319,
+      "train_accuracy": 0.4002043061449002,
+      "val_loss": 0.9579893910808963,
+      "val_accuracy": 0.4053289318556944
+    }
+  ]
+}

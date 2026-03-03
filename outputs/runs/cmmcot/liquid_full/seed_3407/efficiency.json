@@ -1,0 +1,10 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "liquid_full",
+  "seed": 3407,
+  "train_time_sec": 1.9152842920011608,
+  "eval_time_sec": 0.04964808399381582,
+  "peak_memory_mb": 0.100189208984375,
+  "avg_steps": 5.0,
+  "accuracy": 0.225
+}

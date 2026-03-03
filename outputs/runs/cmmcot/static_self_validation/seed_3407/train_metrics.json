@@ -1,0 +1,30 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "static_self_validation",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.4666666666666667,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 3.7199328740437827,
+      "train_accuracy": 0.23333333333333334,
+      "val_loss": 2.959075927734375,
+      "val_accuracy": 0.4666666666666667
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.774758529663086,
+      "train_accuracy": 0.3333333333333333,
+      "val_loss": 3.1237986087799072,
+      "val_accuracy": 0.3333333333333333
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.4700050989786786,
+      "train_accuracy": 0.26666666666666666,
+      "val_loss": 1.6550021171569824,
+      "val_accuracy": 0.43333333333333335
+    }
+  ]
+}

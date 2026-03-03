@@ -1,0 +1,10 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "w_o_self_validation",
+  "seed": 3407,
+  "train_time_sec": 1.9180900829960592,
+  "eval_time_sec": 0.04984824999701232,
+  "peak_memory_mb": 0.10309219360351562,
+  "avg_steps": 5.0,
+  "accuracy": 0.225
+}

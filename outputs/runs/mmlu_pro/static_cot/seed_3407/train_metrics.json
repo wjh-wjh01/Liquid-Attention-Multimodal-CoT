@@ -1,0 +1,30 @@
+{
+  "dataset": "mmlu_pro",
+  "experiment": "static_cot",
+  "seed": 3407,
+  "epochs": 3,
+  "best_val_accuracy": 0.26666666666666666,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 4.358414618174235,
+      "train_accuracy": 0.3,
+      "val_loss": 5.2372894287109375,
+      "val_accuracy": 0.06666666666666667
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.0809147357940674,
+      "train_accuracy": 0.26666666666666666,
+      "val_loss": 4.864631175994873,
+      "val_accuracy": 0.26666666666666666
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.2774343967437742,
+      "train_accuracy": 0.36666666666666664,
+      "val_loss": 4.7936201095581055,
+      "val_accuracy": 0.23333333333333334
+    }
+  ]
+}

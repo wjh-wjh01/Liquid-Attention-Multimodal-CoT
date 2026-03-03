@@ -1,0 +1,10 @@
+{
+  "dataset": "cmmcot",
+  "experiment": "w_o_cross_step",
+  "seed": 3407,
+  "train_time_sec": 1.8392034580028849,
+  "eval_time_sec": 0.05183304198726546,
+  "peak_memory_mb": 0.1040182113647461,
+  "avg_steps": 5.0,
+  "accuracy": 0.225
+}
