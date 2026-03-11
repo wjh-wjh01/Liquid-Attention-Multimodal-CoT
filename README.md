@@ -1,4 +1,4 @@
-# Liquid Attention Multimodal CoT (Local Mac Edition)
+# Liquid Attention Multimodal CoT 
 
 This repository implements a local, CPU-friendly PyTorch baseline for:
 - Liquid Attention with continuous-time dynamics (RK4)
