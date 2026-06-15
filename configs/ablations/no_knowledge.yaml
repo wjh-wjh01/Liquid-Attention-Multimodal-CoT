@@ -1,0 +1,9 @@
+ablation:
+  name: no_knowledge
+  description: Remove retrieved knowledge memory tokens.
+retrieval:
+  enabled: false
+model_patch:
+  drop_knowledge_tokens: true
+reporting:
+  table: "4.5"

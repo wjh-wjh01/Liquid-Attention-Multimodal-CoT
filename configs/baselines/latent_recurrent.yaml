@@ -1,0 +1,8 @@
+baseline:
+  name: latent_recurrent
+model:
+  input_dim: 128
+  hidden_dim: 256
+  num_classes: 2
+  thought_slots: 8
+  recurrent_steps: 12

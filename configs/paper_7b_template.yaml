@@ -1,0 +1,56 @@
+# Template for the controlled 7B same-backbone experiments described in the paper.
+# Fill checkpoint names, dataset paths, tokenizer revision, and split files before use.
+experiment:
+  name: ct_mcot_controlled_7b
+  seeds: [13, 21, 42]
+  benchmarks: [ScienceQA, A-OKVQA, MMMU, MMStar, MathVista]
+
+backbone:
+  visual_encoder: openai/clip-vit-large-patch14
+  visual_encoder_train: frozen_first_stage_lora_final_stage
+  language_backbone: TODO_7B_DECODER_CHECKPOINT
+  tokenizer_revision: TODO
+  lora:
+    rank: 16
+    alpha: 32
+    dropout: 0.05
+
+model:
+  shared_hidden_size: 1024
+  thought_slots:
+    ScienceQA: 8
+    A-OKVQA: 8
+    MMStar: 8
+    MMMU: 12
+    MathVista: 12
+  solver:
+    training: rk4
+    horizon: 1.0
+    steps: 12
+    adaptive_inference: dopri5
+    rtol: 1.0e-3
+    atol: 1.0e-4
+    max_nfe: 32
+  tau_bounds: [0.05, 5.0]
+
+optimization:
+  optimizer: AdamW
+  precision: bf16
+  gradient_clipping: 1.0
+  loss_grid:
+    rationale: [0.0, 0.1, 0.3, 0.5]
+    superposition: [0.0, 0.1, 0.3]
+    grounding: [0.0, 0.1, 0.3]
+    smooth: [1.0e-5, 1.0e-4, 1.0e-3]
+    tau: [1.0e-5, 1.0e-4, 1.0e-3]
+
+hardware:
+  train: 4xA100_80GB
+  latency: 1xA100_80GB
+
+logging:
+  save_predictions_jsonl: true
+  save_solver_nfe: true
+  save_attention_trajectories: true
+  save_retrieval_logs: true
+  save_failure_cases: true

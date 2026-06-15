@@ -1,0 +1,26 @@
+dataset:
+  name: TODO
+  version: TODO
+  license: TODO
+  source_url: TODO
+  downloaded_at: TODO
+
+splits:
+  train:
+    path: data/processed/TODO/train.jsonl
+    num_examples: TODO
+  validation:
+    path: data/processed/TODO/validation.jsonl
+    num_examples: TODO
+  test:
+    path: data/processed/TODO/test.jsonl
+    num_examples: TODO
+
+preprocessing:
+  answer_normalization: ct_mcot.datasets.normalization.normalize_answer
+  image_root: data/raw/TODO/images
+  ocr: TODO
+  retrieval: TODO
+
+notes:
+  - Fill this file before public artifact release.

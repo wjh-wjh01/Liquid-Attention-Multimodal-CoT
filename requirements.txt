@@ -1,5 +1,5 @@
-torch>=2.0
+torch>=2.2
 numpy>=1.24
-PyYAML>=6.0
-Pillow>=9.0
-matplotlib>=3.6
+pyyaml>=6.0
+tqdm>=4.66
+scikit-learn>=1.3
