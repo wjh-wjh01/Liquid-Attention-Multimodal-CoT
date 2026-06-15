@@ -1,0 +1,7 @@
+ablation:
+  name: no_dynamic_attention
+  description: Replace evolved attention logits with instantaneous dot-product attention.
+model_patch:
+  freeze_attention_state: true
+reporting:
+  table: "4.5"

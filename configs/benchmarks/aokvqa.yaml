@@ -1,0 +1,24 @@
+benchmark:
+  name: A-OKVQA
+  task_type: multiple_choice
+  official_split: val
+  expected_examples: 1145
+  primary_metrics: [accuracy, evidence_consistency]
+
+data:
+  manifest_train: data/processed/aokvqa/train.jsonl
+  manifest_eval: data/processed/aokvqa/val.jsonl
+  image_root: data/raw/coco
+
+model:
+  thought_slots: 8
+  num_classes: 4
+
+retrieval:
+  enabled: true
+  top_k: 8
+  expansion_hops: 1
+
+reporting:
+  table: "4.2"
+  claim: knowledge_memory

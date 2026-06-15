@@ -1,0 +1,7 @@
+ablation:
+  name: no_liquid_tau
+  description: Use constant thought and attention time constants.
+model_patch:
+  constant_tau: 1.0
+reporting:
+  table: "4.5"

@@ -1,0 +1,22 @@
+benchmark:
+  name: ScienceQA
+  task_type: multiple_choice
+  official_split: test
+  expected_examples: 4241
+  primary_metrics: [accuracy, macro_f1]
+
+data:
+  manifest_train: data/processed/scienceqa/train.jsonl
+  manifest_eval: data/processed/scienceqa/test.jsonl
+  image_root: data/raw/scienceqa/images
+
+model:
+  thought_slots: 8
+  num_classes: 5
+
+retrieval:
+  enabled: false
+
+reporting:
+  table: "4.2"
+  claim: general_multimodal_reasoning

@@ -1,0 +1,21 @@
+matrix:
+  seeds: [13, 21, 42]
+  benchmarks:
+    - configs/benchmarks/scienceqa.yaml
+    - configs/benchmarks/aokvqa.yaml
+    - configs/benchmarks/mmmu.yaml
+    - configs/benchmarks/mmstar.yaml
+    - configs/benchmarks/mathvista.yaml
+  ablations:
+    - configs/ablations/no_dynamic_attention.yaml
+    - configs/ablations/no_liquid_tau.yaml
+    - configs/ablations/no_visual_diffusion.yaml
+    - configs/ablations/no_knowledge.yaml
+  controlled_baselines:
+    - no_cot
+    - text_cot
+    - multimodal_cot
+    - kam_cot
+    - coconut_latent
+    - mcout_latent
+    - neural_ode_transformer

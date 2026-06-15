@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the CT-MCoT paper."
+title: "Continuous-Time Dynamics for Multimodal Chain-of-Thought Reasoning"
+authors:
+  - family-names: "Anonymous"
+    given-names: "CT-MCoT Authors"
+year: 2026
+license: MIT
+repository-code: "https://github.com/<USER>/ct-mcot"

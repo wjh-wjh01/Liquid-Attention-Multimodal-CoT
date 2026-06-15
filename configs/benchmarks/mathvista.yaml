@@ -1,0 +1,22 @@
+benchmark:
+  name: MathVista
+  task_type: open_or_multiple_choice
+  official_split: testmini
+  expected_examples: 1000
+  primary_metrics: [accuracy, exact_match]
+
+data:
+  manifest_train: data/processed/mathvista/train.jsonl
+  manifest_eval: data/processed/mathvista/testmini.jsonl
+  image_root: data/raw/mathvista/images
+
+model:
+  thought_slots: 12
+  num_classes: 8
+
+retrieval:
+  enabled: false
+
+reporting:
+  table: "4.2"
+  claim: structured_visual_reasoning

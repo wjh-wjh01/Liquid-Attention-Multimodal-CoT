@@ -1,0 +1,8 @@
+baseline:
+  name: neural_ode_transformer
+model:
+  input_dim: 128
+  hidden_dim: 256
+  num_classes: 2
+  num_heads: 4
+  steps: 12

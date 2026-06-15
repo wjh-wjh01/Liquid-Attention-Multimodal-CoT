@@ -1,0 +1,23 @@
+benchmark:
+  name: MMMU
+  task_type: mixed
+  official_split: validation
+  expected_examples: 900
+  primary_metrics: [accuracy, category_accuracy]
+
+data:
+  manifest_train: data/processed/mmmu/train.jsonl
+  manifest_eval: data/processed/mmmu/validation.jsonl
+  image_root: data/raw/mmmu/images
+
+model:
+  thought_slots: 12
+  num_classes: 8
+
+retrieval:
+  enabled: true
+  top_k: 12
+
+reporting:
+  table: "4.2"
+  claim: robust_expert_multimodal_reasoning

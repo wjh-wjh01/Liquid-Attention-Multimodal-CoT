@@ -1,0 +1,8 @@
+baseline:
+  name: no_cot
+  pooling: attentive
+model:
+  input_dim: 128
+  hidden_dim: 256
+  num_classes: 2
+  pooling: attentive

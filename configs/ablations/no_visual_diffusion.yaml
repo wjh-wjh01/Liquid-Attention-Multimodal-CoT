@@ -1,0 +1,7 @@
+ablation:
+  name: no_visual_diffusion
+  description: Disable PDE-inspired graph diffusion over visual patches.
+model:
+  diffusion_weight: 0.0
+reporting:
+  table: "4.5"
